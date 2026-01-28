@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Links</title>
+    <style>
+        /* 全体のデザイン設定 */
+        body {
+            font-family: "Helvetica Neue", Arial, sans-serif;
+            background-color: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+            margin: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 24px;
+            color: #333;
+        }
+        /* リンクボタンのデザイン */
+        .link-card {
+            display: block;
+            background-color: #ffffff;
+            color: #333;
+            text-decoration: none;
+            margin-bottom: 15px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s, background-color 0.2s;
+            font-weight: bold;
+        }
+        /* マウスを乗せた時の動き */
+        .link-card:hover {
+            transform: translateY(-2px);
+            background-color: #007bff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>お気に入りリンク集</h1>
+    
+    <a href="https://www.google.com" class="link-card" target="_blank">Google 検索</a>
+    <a href="https://www.youtube.com" class="link-card" target="_blank">YouTube</a>
+    <a href="https://twitter.com" class="link-card" target="_blank">X (Twitter)</a>
+    <a href="https://github.com" class="link-card" target="_blank">GitHub</a>
+    <a href="https://yoshisan-7.github.io/calc-flow-rate/" class="link-card" target="_blank">管の流量換算</a>
+    <a href="https://gemini.google.com/gem/1ixESaJsGDrdnpHaX5DYtf547pXBFdUGI?usp=sharing" class="link-card" target="_blank">産業衛生ａｉ</a>
+    
+</div>
+
+</body>
+</html>
